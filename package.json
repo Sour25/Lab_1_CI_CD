@@ -11,7 +11,7 @@
     "start": "node server.js",
     "test": "mocha",
     "lint": "eslint .",
-    "coverage": "c8 --exclude '.pnp.*' --exclude '.yarn/**' mocha"
+    "coverage": "c8 --exclude '.pnp.*' --exclude '.yarn/**' --reporter=html --reporter=text mocha"
   },
   "dependencies": {
     "express": "^5.1.0"
